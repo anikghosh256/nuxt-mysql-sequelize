@@ -2,25 +2,24 @@
   <header>
     <div class="container">
       <div class="header-wrapper">
-<div class="brand-log">
-      <nuxt-link> Home </nuxt-link>
-    </div>
-    <nav>
-      <ul>
-        <li>
-          <nuxt-link to="/home"> Home </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/about"> About </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/contact"> Contact </nuxt-link>
-        </li>
-      </ul>
-    </nav>
+        <div class="brand-log">
+          <nuxt-link> Home </nuxt-link>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <nuxt-link to="/"> Home </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/about"> About </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/contact"> Contact </nuxt-link>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
-    
   </header>
 </template>
 
@@ -42,6 +41,7 @@
     display: flex;
     gap: 25px;
     align-items: center;
+    margin-top: revert;
   }
   nav ul li a {
     color: #222;
