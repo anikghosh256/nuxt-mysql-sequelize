@@ -1,7 +1,7 @@
 import db from '../../models/index.js';
 
 export default defineEventHandler(async (event) => {
-  const form = await useBody(event);
+  const form = await readBody(event);
   const { title, content } = extractTitleAndBody(form.content);
 
   if (form.id && form.id != '') {
