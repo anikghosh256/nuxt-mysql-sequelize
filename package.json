@@ -7,11 +7,11 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "^3.8.0",
-    "sequelize-cli": "^6.6.0"
+    "nuxt": "^3.16.2",
+    "sequelize-cli": "^6.6.2"
   },
   "dependencies": {
-    "mysql2": "^3.2.3",
-    "sequelize": "^6.31.0"
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7"
   }
 }
